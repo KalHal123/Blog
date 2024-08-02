@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(45deg, #e0e0e0, #f5f5f5); /* Default light gradient background */
+    background: linear-gradient(45deg, #e0e0e062, #f5f5f5b8); /* Default light gradient background */
     color: #333;
     transition: background-color 0.3s, color 0.3s;
     padding-top: 60px; /* Adjust this value based on header height */
@@ -139,7 +139,7 @@ section:hover {
 
 /* Section Backgrounds */
 #about, #services, #contact {
-    background: linear-gradient(45deg, #f5f5f5, #e0e0e0); /* Light theme gradient background */
+    background: linear-gradient(45deg, #f5f5f586, #e0e0e037); /* Light theme gradient background */
 }
 
 #about.dark-mode, #services.dark-mode, #contact.dark-mode {
