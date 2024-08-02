@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('section');
     const header = document.querySelector('header');
     const footer = document.querySelector('footer');
+    const homeSection = document.getElementById('home');
 
     // Check for saved theme preference in local storage
     if (localStorage.getItem('dark-mode') === 'enabled') {
@@ -31,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sections.forEach(section => section.classList.add('dark-mode'));
         header.classList.add('dark-mode');
         footer.classList.add('dark-mode');
+        homeSection.classList.add('dark-mode');
     } else {
         toggleButton.textContent = '🌙'; // Default to moon icon for dark mode
     }
@@ -45,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             sections.forEach(section => section.classList.remove('dark-mode'));
             header.classList.remove('dark-mode');
             footer.classList.remove('dark-mode');
+            homeSection.classList.remove('dark-mode');
         } else {
             body.classList.add('dark-mode');
             toggleButton.classList.add('dark-mode');
@@ -53,6 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             sections.forEach(section => section.classList.add('dark-mode'));
             header.classList.add('dark-mode');
             footer.classList.add('dark-mode');
+            homeSection.classList.add('dark-mode');
         }
     });
 });

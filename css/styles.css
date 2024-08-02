@@ -109,13 +109,16 @@ section:hover {
 
 /* Specific Section Styles */
 #home {
-    color: white;
+    color: #000; /* Black text color for better readability in light theme */
+    background: #fff; /* Light background for #home section in light theme */
     padding-top: 100px;
     padding-bottom: 100px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #home.dark-mode {
-    color: #f5f5f5;
+    background: #333; /* Dark background in dark mode */
+    color: #f5f5f5; /* Light font color in dark mode */
 }
 
 /* Button Styles */
