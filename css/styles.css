@@ -58,6 +58,7 @@ section {
     margin-bottom: 20px;
 }
 
+/* Button styles */
 .cta-button {
     display: inline-block;
     background-color: #ffdd57;
@@ -67,9 +68,15 @@ section {
     border-radius: 5px;
     font-size: 1.2em;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none; /* Remove underline */
     transition: background-color 0.3s, transform 0.3s;
 }
+
+.cta-button:hover {
+    background-color: #f093fb;
+    transform: scale(1.05);
+}
+
 
 .cta-button:hover {
     background-color: #f093fb;
