@@ -1,5 +1,5 @@
 // Add your JavaScript here
-console.log('Good website here, right?');
+console.log('Good website here right?');
 
 // Smooth scrolling for navigation links and buttons
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
